@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the paper listed under
+  preferred-citation below.
+title: "GMCC: Global Mean-Centered Correlation"
+abstract: >-
+  Reference implementation of the Global Mean-Centered Correlation (GMCC),
+  a parameter-free, variance-reduced similarity measure that replaces the
+  local mean centering of Pearson Correlation with a population-level global
+  mean, improving estimator stability and definitional coverage under sparse
+  co-observations.
+type: software
+license: MIT
+version: 1.0.0
+# Authors of this software implementation. The authors of the paper it
+# implements are listed separately under preferred-citation.
+authors:
+  - family-names: Wiyono
+    given-names: Slamet
+    orcid: "https://orcid.org/0000-0002-5279-0337"
+    affiliation: >-
+      Department of Electrical and Information Engineering, Faculty of
+      Engineering, Universitas Gadjah Mada, Yogyakarta, Indonesia; Faculty of
+      Science and Technology, Universitas Harkat Negeri, Tegal, Indonesia
+keywords:
+  - similarity measure
+  - correlation
+  - global mean centering
+  - sparse data
+  - variance reduction
+  - shrinkage estimation
+  - collaborative filtering
+  - clustering
+  - pattern recognition
+preferred-citation:
+  type: article
+  title: >-
+    Global mean-centered correlation: A variance-reduced and theoretically
+    grounded similarity measure for sparse data environments
+  authors:
+    - family-names: Wiyono
+      given-names: Slamet
+      orcid: "https://orcid.org/0000-0002-5279-0337"
+    - family-names: Adji
+      given-names: Teguh Bharata
+    - family-names: Nugroho
+      given-names: Hanung Adi
+    - family-names: Wibirama
+      given-names: Sunu
+  journal: "Information Sciences"
+  volume: 749
+  start: 123502
+  year: 2026
+  issn: "0020-0255"
+  doi: "10.1016/j.ins.2026.123502"
+  url: "https://doi.org/10.1016/j.ins.2026.123502"
+  publisher:
+    name: "Elsevier"

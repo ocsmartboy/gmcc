@@ -1,0 +1,14 @@
+# Normalise text files to LF inside the repository, regardless of the
+# platform a contributor works on. Keeps diffs clean across Windows, macOS
+# and Linux.
+* text=auto eol=lf
+
+# Notebooks are JSON; treat them as text so diffs stay readable.
+*.ipynb text eol=lf
+
+# Binary formats Git must not touch.
+*.png binary
+*.jpg binary
+*.pdf binary
+*.npy binary
+*.npz binary
